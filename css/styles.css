@@ -15,25 +15,13 @@
   --btn-second-text-color: #212121;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --footer-text-accent-color: #ffffff;
+  --background-main-color: #ffffff;
 }
-
-{
-    printWidth: 100,
-    tabWidth: 2,
-    useTabs: false,
-    semi: true,
-    singleQuote: true,
-    trailingComma: "es5",
-    bracketSpacing: true,
-    jsxBracketSameLine: false,
-    arrowParens: "avoid",
-    proseWrap: "always"
-      }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-main-color)
-  background-color: #ffffff;
+  background-color: var(--background-main-color);
 }
 
 .list {
