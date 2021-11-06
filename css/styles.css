@@ -92,6 +92,10 @@ body {
   color: var(--heder-acent-link-color);
 }
 
+.current {
+  color: var(--heder-acent-link-color)
+}
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
