@@ -15,6 +15,7 @@
   --btn-second-text-color: #212121;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --footer-text-accent-color: #ffffff;
+  --footer-text-address-color: #ffffff;
   --background-main-color: #ffffff;
 }
 
@@ -62,7 +63,7 @@ body {
 }
 
 .logo-part2 {
-  font-family: "Oleo Script";
+  font-family: "Raleway";
   font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
@@ -188,6 +189,16 @@ body {
 }
 
 .team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:var(--title-main-color);
+
+}
+
+.team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -211,6 +222,10 @@ body {
   background: #2f303a;
 }
 
+address {
+    font-style: normal;
+}
+
 .footer-link {
   font-weight: 400;
   font-size: 14px;
@@ -219,9 +234,8 @@ body {
   color: var(--footer-text-color);
 }
 
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--footer-text-accent-color);
+.footer-address {
+  color: var(--footer-text-address-color);
 }
 
 /*---------------------PORTFOLIO---------------------*/
